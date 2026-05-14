@@ -1,50 +1,51 @@
-# 100-Prisoners-Problem
+# Problem 100 zatvorenika i 100 kutija
 
-Mathematical and computational analysis of the classical **100 Prisoners Problem** using probability theory, permutation cycles, algorithmic thinking, and Python simulations.
+Matematička i programska analiza poznatog problema „100 zatvorenika i 100 kutija“ korišćenjem teorije verovatnoće, permutacija, ciklusa i Python simulacija.
 
-This repository contains:
-- a Jupyter notebook with simulations and experimental analysis of different strategies,
-- a companion PDF with the mathematical background, theoretical derivations, probabilistic analysis, and discussion of results.
+Repozitorijum sadrži:
+- Jupyter notebook sa simulacijama i eksperimentalnom analizom različitih strategija,
+- propratni PDF sa matematičkom analizom problema, teorijskim izvođenjima i interpretacijom rezultata.
 
-The project investigates:
-- random strategies,
-- sequential and block-based strategies,
-- the classical cycle-following strategy,
-- experimental search for alternative strategies,
-- asymptotic behavior and convergence toward \(1 - \ln 2\),
-- structural properties of permutation cycles.
+U okviru projekta analizirane su:
+- nasumične strategije,
+- strategije otvaranja kutija redom,
+- blok strategije,
+- strategija praćenja ciklusa,
+- eksperimentalno traženje boljih strategija,
+- asimptotsko ponašanje problema i konvergencija ka vrednosti \(1 - \ln 2\),
+- struktura ciklusa slučajnih permutacija.
 
-The simulations experimentally confirm the theoretical probability of success of approximately **31%** for the cycle-following strategy.
+Simulacije eksperimentalno potvrđuju teorijsku verovatnoću uspeha od približno **31%** za strategiju praćenja ciklusa.
 
-## Repository Structure
+## Struktura repozitorijuma
 
 - `Strategy simulations.ipynb`  
-  Python implementation, simulations, visualizations, and experimental results.
+  Python implementacija simulacija, eksperimenata i vizualizacija.
 
 - `Mathematical aspects of strategies.pdf`  
-  Theoretical explanation of the problem, probability analysis, cycle decomposition, asymptotic behavior, and interpretation of simulation results.
+  Matematička analiza problema, teorijska objašnjenja, analiza verovatnoća, ciklusa i interpretacija rezultata simulacija.
 
-## Main Topics
+## Oblasti
 
-- Probability Theory
-- Permutations and Cycles
-- Combinatorics
-- Monte Carlo Simulation
-- Algorithmic Strategies
-- Experimental Mathematics
+- teorija verovatnoće
+- kombinatorika
+- permutacije i ciklusi
+- algoritamsko razmišljanje
+- Monte Carlo simulacije
+- eksperimentalna matematika
 - Python
 
-## Technologies
+## Korišćene tehnologije
 
 - Python
 - NumPy
 - Matplotlib
 - Jupyter Notebook
 
-## About the Project
+## O projektu
 
-This project was developed as part of a mathematical and algorithmic exploration of the 100 prisoners problem, combining rigorous theoretical analysis with computational experimentation.  
+Cilj projekta bio je povezivanje teorijske matematike i programske simulacije kroz analizu jednog poznatog logičko-verovatnosnog problema.  
 
-The focus of the work is not only on implementing simulations, but also on understanding why the cycle-following strategy works and how permutation structure dramatically changes the probability of success.
+Poseban fokus stavljen je na razumevanje zbog čega strategija praćenja ciklusa daje značajno bolji rezultat od intuitivnih pristupa, kao i na eksperimentalnu proveru teorijskih rezultata pomoću velikog broja simulacija.
 
-The accompanying PDF contains the full mathematical discussion and interpretation of the experiments.  [oai_citation:0‡Mathematical aspects of strategies.pdf](sediment://file_00000000233871f78d61254b7ead8bb4)
+Detaljna matematička analiza i interpretacija rezultata nalaze se u propratnom PDF dokumentu.
