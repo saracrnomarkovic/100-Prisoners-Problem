@@ -1,65 +1,165 @@
-# 100 Prisoners and 100 Boxes Problem
+# 🔐 The 100 Prisoners Problem
 
-Mathematical and computational analysis of the famous *100 Prisoners and 100 Boxes* problem using probability theory, permutations, cycle decomposition, and Python simulations.
+A mathematical and computational study of the famous "100 Prisoners and 100 Boxes" problem using probability theory, combinatorics, permutation cycles, asymptotic analysis, and large-scale Monte Carlo simulations.
 
-This repository contains:
+The project combines rigorous mathematical reasoning with experimental verification through Python simulations.
 
-- A Jupyter Notebook with simulations and experimental analysis of different strategies.
-- A supplementary PDF document with mathematical derivations, theoretical explanations, and interpretation of the results.
+---
+
+## 🎯 Project Objectives
+
+The primary goal of this project is to understand why a problem that appears almost impossible at first glance has a surprisingly high probability of success.
 
 The project investigates:
 
 - Random search strategies
 - Sequential box-opening strategies
 - Block-based strategies
-- The cycle-following strategy
-- Experimental search for improved strategies
-- Asymptotic behavior and convergence to the value $begin:math:text$1 \- \\ln 2$end:math:text$
-- Cycle structure of random permutations
+- Cycle-following strategies
+- Experimental search for alternative strategies
+- Asymptotic behavior as the number of prisoners grows
+- Cycle structures of random permutations
 
-Simulation results experimentally confirm the theoretical success probability of approximately **31%** for the cycle-following strategy.
+---
 
-## Repository Structure
+## 🧠 Mathematical Background
 
-### `Strategy simulations.ipynb`
-
-Python implementation of simulations, experiments, and visualizations.
-
-### `Mathematical aspects of strategies.pdf`
-
-Supplementary document containing mathematical analysis, probability calculations, cycle decomposition, theoretical derivations, and interpretation of simulation results.
-
-> Note: The document is currently available in Serbian.
-
-## Topics
+The problem lies at the intersection of several mathematical fields:
 
 - Probability Theory
 - Combinatorics
-- Permutations and Cycle Decomposition
-- Algorithmic Thinking
-- Monte Carlo Simulation
-- Experimental Mathematics
-- Python Programming
+- Permutations
+- Cycle Decomposition
+- Asymptotic Analysis
+- Discrete Mathematics
 
-## Technologies
+A key insight is that the optimal strategy transforms the problem into the study of cycle lengths in random permutations.
+
+---
+
+## 🔍 Research Questions
+
+The project explores several questions:
+
+- Why does the cycle-following strategy outperform random guessing?
+- How do cycle lengths influence success probability?
+- Can alternative strategies outperform cycle-following?
+- What happens when the number of prisoners becomes very large?
+- Why does the success probability converge to a constant value?
+
+---
+
+## 📐 Theoretical Analysis
+
+The mathematical report includes:
+
+- Formal problem definition
+- Derivation of success probabilities
+- Analysis of permutation cycles
+- Proofs involving cycle decomposition
+- Asymptotic arguments
+- Convergence analysis
+
+One of the main theoretical results is that the probability of success converges to:
+
+```
+1 - ln(2)
+```
+
+which is approximately:
+
+```
+30.685%
+```
+
+---
+
+## 🧪 Simulation Study
+
+Extensive Monte Carlo simulations were implemented in Python to experimentally verify the theoretical results.
+
+The simulations include:
+
+- Random strategy evaluation
+- Sequential search strategies
+- Block strategies
+- Cycle-following strategy
+- Comparative performance analysis
+- Large-scale repeated experiments
+
+Simulation results consistently confirm the theoretical success probability of approximately:
+
+**31%**
+
+for the cycle-following strategy.
+
+---
+
+## 📊 Key Findings
+
+✅ Random guessing performs extremely poorly.
+
+✅ The cycle-following strategy dramatically increases success probability.
+
+✅ Success depends entirely on the maximum cycle length of the underlying permutation.
+
+✅ Experimental results closely match theoretical predictions.
+
+✅ The asymptotic probability converges to approximately:
+
+```
+1 - ln(2)
+```
+
+---
+
+## 📂 Repository Structure
+
+### Strategy simulations.ipynb
+
+Contains:
+
+- Monte Carlo simulations
+- Strategy comparisons
+- Numerical experiments
+- Visualizations
+- Empirical validation of theoretical results
+
+### Mathematical aspects of strategies.pdf
+
+Contains:
+
+- Mathematical derivations
+- Probability calculations
+- Cycle analysis
+- Asymptotic arguments
+- Interpretation of simulation results
+
+---
+
+## ⚙️ Technologies
 
 - Python
 - NumPy
 - Matplotlib
 - Jupyter Notebook
 
-## Project Goal
+---
 
-The goal of this project is to connect theoretical mathematics with computational experimentation through the analysis of a well-known probabilistic and algorithmic puzzle.
+## 📚 Topics
 
-The project combines mathematical proofs, asymptotic analysis, and large-scale simulations to investigate why the cycle-following strategy dramatically outperforms naive approaches and achieves a success probability close to 31%.
+Probability Theory • Combinatorics • Permutations • Cycle Decomposition • Monte Carlo Simulation • Experimental Mathematics • Algorithms • Discrete Mathematics
 
-## Author
+---
+
+## 👩‍💻 Author
 
 Sara Crnomarkovic
 
 Faculty of Mathematics, University of Belgrade
 
-GitHub: https://github.com/saracrnomarkovic
+📧 sara.crnomarkovic2002@gmail.com
 
-LinkedIn: https://www.linkedin.com/in/saracrnomarkovic/tička analiza i interpretacija rezultata nalaze se u propratnom PDF dokumentu.
+🔗 LinkedIn: https://www.linkedin.com/in/saracrnomarkovic/
+
+🔗 GitHub: https://github.com/saracrnomarkovic
