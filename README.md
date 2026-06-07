@@ -1,51 +1,65 @@
-# Problem 100 zatvorenika i 100 kutija
+# 100 Prisoners and 100 Boxes Problem
 
-Matematička i programska analiza poznatog problema „100 zatvorenika i 100 kutija“ korišćenjem teorije verovatnoće, permutacija, ciklusa i Python simulacija.
+Mathematical and computational analysis of the famous *100 Prisoners and 100 Boxes* problem using probability theory, permutations, cycle decomposition, and Python simulations.
 
-Repozitorijum sadrži:
-- Jupyter notebook sa simulacijama i eksperimentalnom analizom različitih strategija,
-- propratni PDF sa matematičkom analizom problema, teorijskim izvođenjima i interpretacijom rezultata.
+This repository contains:
 
-U okviru projekta analizirane su:
-- nasumične strategije,
-- strategije otvaranja kutija redom,
-- blok strategije,
-- strategija praćenja ciklusa,
-- eksperimentalno traženje boljih strategija,
-- asimptotsko ponašanje problema i konvergencija ka vrednosti \(1 - \ln 2\),
-- struktura ciklusa slučajnih permutacija.
+- A Jupyter Notebook with simulations and experimental analysis of different strategies.
+- A supplementary PDF document with mathematical derivations, theoretical explanations, and interpretation of the results.
 
-Simulacije eksperimentalno potvrđuju teorijsku verovatnoću uspeha od približno **31%** za strategiju praćenja ciklusa.
+The project investigates:
 
-## Struktura repozitorijuma
+- Random search strategies
+- Sequential box-opening strategies
+- Block-based strategies
+- The cycle-following strategy
+- Experimental search for improved strategies
+- Asymptotic behavior and convergence to the value $begin:math:text$1 \- \\ln 2$end:math:text$
+- Cycle structure of random permutations
 
-- `Strategy simulations.ipynb`  
-  Python implementacija simulacija, eksperimenata i vizualizacija.
+Simulation results experimentally confirm the theoretical success probability of approximately **31%** for the cycle-following strategy.
 
-- `Mathematical aspects of strategies.pdf`  
-  Matematička analiza problema, teorijska objašnjenja, analiza verovatnoća, ciklusa i interpretacija rezultata simulacija.
+## Repository Structure
 
-## Oblasti
+### `Strategy simulations.ipynb`
 
-- teorija verovatnoće
-- kombinatorika
-- permutacije i ciklusi
-- algoritamsko razmišljanje
-- Monte Carlo simulacije
-- eksperimentalna matematika
-- Python
+Python implementation of simulations, experiments, and visualizations.
 
-## Korišćene tehnologije
+### `Mathematical aspects of strategies.pdf`
+
+Supplementary document containing mathematical analysis, probability calculations, cycle decomposition, theoretical derivations, and interpretation of simulation results.
+
+> Note: The document is currently available in Serbian.
+
+## Topics
+
+- Probability Theory
+- Combinatorics
+- Permutations and Cycle Decomposition
+- Algorithmic Thinking
+- Monte Carlo Simulation
+- Experimental Mathematics
+- Python Programming
+
+## Technologies
 
 - Python
 - NumPy
 - Matplotlib
 - Jupyter Notebook
 
-## O projektu
+## Project Goal
 
-Cilj projekta bio je povezivanje teorijske matematike i programske simulacije kroz analizu jednog poznatog logičko-verovatnosnog problema.  
+The goal of this project is to connect theoretical mathematics with computational experimentation through the analysis of a well-known probabilistic and algorithmic puzzle.
 
-Poseban fokus stavljen je na razumevanje zbog čega strategija praćenja ciklusa daje značajno bolji rezultat od intuitivnih pristupa, kao i na eksperimentalnu proveru teorijskih rezultata pomoću velikog broja simulacija.
+The project combines mathematical proofs, asymptotic analysis, and large-scale simulations to investigate why the cycle-following strategy dramatically outperforms naive approaches and achieves a success probability close to 31%.
 
-Detaljna matematička analiza i interpretacija rezultata nalaze se u propratnom PDF dokumentu.
+## Author
+
+Sara Crnomarkovic
+
+Faculty of Mathematics, University of Belgrade
+
+GitHub: https://github.com/saracrnomarkovic
+
+LinkedIn: https://www.linkedin.com/in/saracrnomarkovic/tička analiza i interpretacija rezultata nalaze se u propratnom PDF dokumentu.
